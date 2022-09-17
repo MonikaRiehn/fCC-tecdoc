@@ -1,0 +1,52 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+* {
+  font-family: 'Mukta', sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+#navbar {
+  height: 100%; 
+  width: 160px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color:black;
+  overflow-x: hidden;
+  padding-top: 10px;
+  padding-right:20px;
+  border-right: 2px solid grey;
+  color:white;
+  font-size:20px;
+  font-weight:800;
+  text-align:center;
+}
+
+#navbar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.nav a:hover {
+  color: #f1f1f1;
+}
+
+#main-doc {
+  margin:90px 10px 10px;
+}
+
+.main-section {
+  margin:10px 10px 35px 200px;
+  padding: 0px 10px;
+}
